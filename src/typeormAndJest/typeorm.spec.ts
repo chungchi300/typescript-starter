@@ -2,8 +2,8 @@ import { INestApplication } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import * as request from 'supertest';
 
-import { AsyncApplicationModule } from 'src/typeormAndJest/exp/app-async.module';
-import { author } from 'src/deep/deep2/util';
+import { AsyncApplicationModule } from 'typeormAndJest/exp/app-async.module';
+import { author } from 'deep/deep2/util';
 describe('TypeOrm', () => {
   let server;
   let app: INestApplication;

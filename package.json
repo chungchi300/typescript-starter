@@ -59,7 +59,7 @@
       "ts"
     ],
     "moduleDirectories": [
-      "./",
+      "src",
       "node_modules"
     ],
     "rootDir": "./",
